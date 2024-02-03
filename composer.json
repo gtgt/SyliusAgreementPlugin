@@ -39,9 +39,6 @@
     "symfony/event-dispatcher": "^5.4 || ^6.0",
     "phpspec/phpspec": "^7.0"
   },
-  "conflict": {
-        "doctrine/orm": ">=2.15.2"
-    },
   "scripts": {
     "check:code":
     [
