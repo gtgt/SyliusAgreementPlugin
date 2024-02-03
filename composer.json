@@ -12,12 +12,11 @@
   },
   "require": {
     "sylius/sylius": "~1.9.0 || ~1.10.0 || ~1.11.0 || ~1.12.0",
-    "php": "^7.4 || ^8.0",
-    "bitbag/coding-standard": "^v1.0.1"
   },
   "require-dev": {
-    "behat/behat": "^3.6.1",
+    "behat/behat": "^3.7",
     "behat/mink-selenium2-driver": "^1.4",
+    "bitbag/coding-standard": "^2.0",
     "dmore/behat-chrome-extension": "^1.3",
     "dmore/chrome-mink-driver": "^2.7",
     "friends-of-behat/mink": "^1.8",
@@ -29,15 +28,15 @@
     "friends-of-behat/symfony-extension": "^2.1",
     "friends-of-behat/variadic-extension": "^1.3",
     "friendsofsymfony/oauth-server-bundle": "^1.6 || >2.0.0-alpha.0 ^2.0@dev",
-    "symfony/dotenv": "^4.4 || ^5.2",
-    "symfony/config": "^2.7 || ^3.0 || ^4.0 || ^5.0",
-    "symfony/debug-bundle": "^4.4 || ^5.2",
-    "symfony/web-profiler-bundle": "^4.4 | ^5.2",
-    "symfony/browser-kit": "^4.4 || ^5.2",
+    "symfony/dotenv": "^5.4 || ^6.0",
+    "symfony/config": "^5.4 || ^6.0",
+    "symfony/debug-bundle": "^5.4 || ^6.0",
+    "symfony/web-profiler-bundle": "^5.4 || ^6.0",
+    "symfony/browser-kit": "^5.4 || ^6.0",
     "polishsymfonycommunity/symfony-mocker-container": "^1.0",
-    "symfony/security-bundle": "^5.2 | ^4.4",
-    "symfony/dependency-injection": "^5.2 | ^4.4",
-    "symfony/event-dispatcher": "^5.2 | ^4.4",
+    "symfony/security-bundle": "^5.4 || ^6.0",
+    "symfony/dependency-injection": "^5.4 || ^6.0",
+    "symfony/event-dispatcher": "^5.4 || ^6.0",
     "phpspec/phpspec": "^7.0"
   },
   "conflict": {
