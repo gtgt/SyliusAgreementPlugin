@@ -1,0 +1,34 @@
+sylius:
+    ui:
+        agreements: Szerződések
+        agreement_parent: Szerződés szülő
+        edit_agreement: Szerződés szerkesztése
+        manage_agreements: Szerződések
+        new_agreement: Új szerződés
+        id: ID
+        name: Név
+        code: Kód
+        order_on_view: Megrendelés megjelenítése a részletekben
+        contexts_label: Megjelenés
+        published_at: Publikálva
+        archived_at: Archiválva
+        enabled: Engedélyezve
+        body: Bevezető
+        extended_body: További szöveg
+        mode: Mód
+        translations: Fordítások
+        agreement:
+            name: Név
+            body: Bevezető
+            extended_body: További szöveg
+            enabled: Engedélyezve
+            more: Több
+            less: Kevesebb
+            modes:
+                required: Kötelező
+                only_show: Csak mutatás
+                required_and_non_cancellable: Köztelező és nem visszavonható
+                not_required: Nem kötelező
+            contexts:
+                registration_form: Regisztrációs űrlap
+                checkout_form: Megrendelés űrlap
