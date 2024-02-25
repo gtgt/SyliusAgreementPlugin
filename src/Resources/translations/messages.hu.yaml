@@ -1,4 +1,4 @@
-sylius:
+bitbag_sylius_agreement_plugin:
     ui:
         agreements: Szerződések
         agreement_parent: Szerződés szülő
