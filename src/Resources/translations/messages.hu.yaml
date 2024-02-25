@@ -8,7 +8,7 @@ bitbag_sylius_agreement_plugin:
         id: ID
         name: Név
         code: Kód
-        order_on_view: Megrendelés megjelenítése a részletekben
+        order_on_view: Elhelyezkedés (sorszám)
         contexts_label: Megjelenés
         published_at: Publikálva
         archived_at: Archiválva
