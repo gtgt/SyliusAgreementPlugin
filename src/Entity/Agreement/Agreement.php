@@ -17,6 +17,10 @@ use Sylius\Component\Resource\Model\TranslatableTrait;
 use Sylius\Component\Resource\Model\TranslationInterface;
 use Tests\BitBag\SyliusAgreementPlugin\Entity\Customer\CustomerInterface;
 
+/**
+ * @method AgreementTranslationInterface getTranslation()
+ * @method void addTranslation(AgreementTranslationInterface $translation)
+ */
 class Agreement implements AgreementInterface
 {
     use ToggleableTrait;
@@ -88,6 +92,36 @@ class Agreement implements AgreementInterface
     public function setCode(?string $code): void
     {
         $this->code = $code;
+    }
+
+    public function getName(): string
+    {
+        return $this->getTranslation()->getName();
+    }
+
+    public function setName(string $name): void
+    {
+        $this->getTranslation()->setName($name);
+    }
+
+    public function getBody(): string
+    {
+        return $this->getTranslation()->getBody();
+    }
+
+    public function setBody(string $body): void
+    {
+        $this->getTranslation()->setBody($body);
+    }
+
+    public function getExtendedBody(): ?string
+    {
+        return $this->getTranslation()->getExtendedBody();
+    }
+
+    public function setExtendedBody(?string $body): void
+    {
+        $this->getTranslation()->setExtendedBody($body);
     }
 
     public function getMode(): string

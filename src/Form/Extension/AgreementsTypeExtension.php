@@ -58,8 +58,10 @@ final class AgreementsTypeExtension extends AbstractTypeExtension
                 'label' => false,
             ])
             ->addEventListener(FormEvents::POST_SUBMIT, function (FormEvent $formEvent) use ($context): void {
-                $event = new AgreementCheckedEvent($context, $formEvent);
-                $this->eventDispatcher->dispatch($event);
+                if (!$formEvent->getForm()->getErrors(true)) {
+                    $event = new AgreementCheckedEvent($context, $formEvent);
+                    $this->eventDispatcher->dispatch($event);
+                }
             })
         ;
     }
